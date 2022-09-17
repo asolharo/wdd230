@@ -27,9 +27,14 @@ header {
 
 footer {
     padding: 10px;
-    color: moccasin;
+    color: #FFF1DB;
     background-color: green;
     border-radius: 1em;
     align-items: center;
     text-align: center;
+}
+
+main {
+    margin-left: 1em;
+    margin-right: 1em;
 }
