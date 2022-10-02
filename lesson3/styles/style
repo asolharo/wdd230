@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: green;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    align-items: center;
+}
+
+#portrait {
+    grid-column: 1/2;
+    padding: 20px;
+}
+
+#myName {
+    grid-column: 2/3;
+    padding: 20px;
+    color: moccasin;
+    text-align:center;
+    font-size: 2em;
+}
+
+footer {
+    padding: 10px;
+    color: #FFF1DB;
+    background-color: green;
+    border-radius: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+h1, h2{
+    font-family: 'Lato', sans-serif;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
