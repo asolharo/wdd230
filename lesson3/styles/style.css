@@ -1,0 +1,22 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: green;
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: green;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
+nav a:hover {
+    background-color: aliceblue;
+}
